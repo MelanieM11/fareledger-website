@@ -196,3 +196,14 @@ footer.site .copyright { text-align: center; margin-top: 8px; }
 .legal table { width: 100%; border-collapse: collapse; margin: 12px 0 18px; font-size: 0.95rem; background: var(--card); }
 .legal th, .legal td { border: 1px solid var(--border); padding: 8px 10px; text-align: left; vertical-align: top; }
 .legal blockquote { margin: 12px 0; padding: 10px 16px; background: var(--card); border-left: 4px solid var(--gold); }
+.legal .effective { color: var(--muted, #5f605b); font-weight: 600; margin-top: -6px; }
+.legal .toc { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 18px 22px; margin: 24px 0 8px; }
+.legal .toc h2 { font-size: 1.15rem; margin: 0 0 10px; }
+.legal .toc ol { margin: 0; padding-left: 22px; columns: 2; column-gap: 32px; }
+.legal .toc li { margin: 4px 0; break-inside: avoid; }
+.legal .toc a { color: var(--green, #0a5f55); text-decoration: none; font-weight: 600; }
+.legal .toc a:hover { text-decoration: underline; }
+.legal h2 { scroll-margin-top: 16px; }
+.legal .to-top { font-size: 0.8rem; color: var(--muted, #5f605b); text-decoration: none; margin-left: 6px; vertical-align: middle; }
+@media (max-width: 640px) { .legal .toc ol { columns: 1; } }
+@media print { .legal .to-top { display: none; } }
